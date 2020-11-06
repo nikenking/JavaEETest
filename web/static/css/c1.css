@@ -1,0 +1,85 @@
+form {
+    background-color: #D4D4D4;
+    display: flex;
+}
+
+div {
+    display: flex;
+}
+
+.d1 {
+    margin: 60px auto;
+    width: 400px;
+    height: 500px;
+    background-color: #007ACC;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.d2:nth-child(1) {
+    width: 80%;
+    flex-direction: column;
+}
+
+.d2:nth-child(2) {
+    margin-top: 50px;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.d2 input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 20px;
+    font-size: 17px;
+    font-family: "KaiTi";
+}
+
+.d2:nth-child(3) {
+    margin-top: 50px;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.d3 {
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #333333;
+}
+
+.logo {
+    color: white;
+    font-family: "Bauhaus 93";
+    font-size: 25px;
+    margin: 35px;
+}
+
+.form{
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    background-color: #007ACC;
+    align-items: center;
+}
+
+.d4{
+    width: 100px;
+    height: 50px;
+}
+
+.d4 input{
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+}
